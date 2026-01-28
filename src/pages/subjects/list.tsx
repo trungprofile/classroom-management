@@ -110,7 +110,7 @@ const SubjectsList = () => {
             />
           </div>
 
-          <div className="flex gap-2 w-full sm:w-audo">
+          <div className="flex gap-2 w-full sm:w-auto">
             <Select
               value={selectedDepartment}
               onValueChange={setSelectedDepartment}
