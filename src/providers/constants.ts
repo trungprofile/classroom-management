@@ -1,19 +1,11 @@
 export const API_URL = "https://api.fake-rest.refine.dev";
+import { Subject } from "@/types";
 
-// Mock subject data type
-interface Subject {
-  id: string;
-  code: string;
-  name: string;
-  department: string;
-  description: string;
-  createdAt: string;
-}
 
 // Mock subjects data
 export const MOCK_SUBJECTS: Subject[] = [
   {
-    id: "1",
+    id: 1,
     code: "CS101",
     name: "Introduction to Computer Science",
     department: "Computer Science",
@@ -21,7 +13,7 @@ export const MOCK_SUBJECTS: Subject[] = [
     createdAt: "2024-01-15T10:30:00Z",
   },
   {
-    id: "2",
+    id: 2,
     code: "MATH201",
     name: "Calculus II",
     department: "Mathematics",
@@ -29,7 +21,7 @@ export const MOCK_SUBJECTS: Subject[] = [
     createdAt: "2024-02-20T14:45:00Z",
   },
   {
-    id: "3",
+    id: 3,
     code: "PHYS150",
     name: "Physics I: Mechanics",
     department: "Physics",
