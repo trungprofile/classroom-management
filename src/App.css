@@ -454,7 +454,7 @@ body {
       @apply mt-5 mb-1;
 
       img {
-        @apply w-full aspect-5/1 rounded-xl object-cover shadow-md;
+        @apply w-full aspect-[5/1] rounded-xl object-cover shadow-md;
       }
 
       .placeholder {
@@ -514,7 +514,7 @@ body {
       }
 
       img {
-        @apply size-13 rounded-full object-cover;
+        @apply size-[3.25rem] rounded-full object-cover;
       }
 
       > div > div > p:first-child {
